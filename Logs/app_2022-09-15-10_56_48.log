@@ -1,0 +1,12 @@
+2022-Sep-15 10:57:03 AM [main] INFO  com.testcases.EmployeeLoginPageTest - launch browser
+2022-Sep-15 10:57:03 AM [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2022-Sep-15 10:57:03 AM [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2022-Sep-15 10:57:03 AM [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+2022-Sep-15 10:57:03 AM [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet3.xml.rels
+2022-Sep-15 10:57:04 AM [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2022-Sep-15 10:57:04 AM [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2022-Sep-15 10:57:04 AM [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2022-Sep-15 10:57:04 AM [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2022-Sep-15 10:57:05 AM [main] INFO  com.pages.LoginPage - login is performed
+2022-Sep-15 10:57:05 AM [main] INFO  com.pages.LoginPage - verify the login
+2022-Sep-15 10:57:17 AM [main] INFO  com.testcases.EmployeeLoginPageTest - close browser

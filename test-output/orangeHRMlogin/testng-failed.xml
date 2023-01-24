@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [orangeHRMlogin]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.utils.WebEventListener"/>
+  </listeners>
+  <test thread-count="5" name="loginTest(failed)">
+    <classes>
+      <class name="com.testcases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- loginTest(failed) -->
+</suite> <!-- Failed suite [orangeHRMlogin] -->
