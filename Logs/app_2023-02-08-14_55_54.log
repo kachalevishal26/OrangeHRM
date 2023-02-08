@@ -1,0 +1,16 @@
+2023-Feb-08 14:56:08 PM [main] INFO  com.testcases.LoginPageTest - launching chrome browser
+2023-Feb-08 14:56:09 PM [main] INFO  com.testcases.LoginPageTest - verify forgot password link
+2023-Feb-08 14:56:09 PM [main] INFO  com.testcases.LoginPageTest - closing the browser
+2023-Feb-08 14:56:09 PM [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2023-Feb-08 14:56:09 PM [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2023-Feb-08 14:56:09 PM [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+2023-Feb-08 14:56:09 PM [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet3.xml.rels
+2023-Feb-08 14:56:09 PM [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2023-Feb-08 14:56:09 PM [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2023-Feb-08 14:56:09 PM [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2023-Feb-08 14:56:09 PM [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2023-Feb-08 14:56:22 PM [main] INFO  com.testcases.LoginPageTest - launching chrome browser
+2023-Feb-08 14:56:25 PM [main] INFO  com.pages.LoginPage - login is performed
+2023-Feb-08 14:56:25 PM [main] INFO  com.pages.LoginPage - verify the login
+2023-Feb-08 14:56:26 PM [main] INFO  com.testcases.LoginPageTest - login
+2023-Feb-08 14:56:26 PM [main] INFO  com.testcases.LoginPageTest - closing the browser

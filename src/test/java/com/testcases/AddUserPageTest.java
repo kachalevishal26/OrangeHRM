@@ -10,6 +10,7 @@ import org.testng.annotations.Test;
 import com.base.TestBase;
 import com.pages.AddUserPage;
 import com.pages.LoginPage;
+import com.utils.DataSupplier;
 import com.utils.TestUtil;
 
 public class AddUserPageTest extends TestBase {
@@ -24,7 +25,7 @@ public class AddUserPageTest extends TestBase {
 	
 	@DataProvider
 	public Object[][] getData() {
-		Object data[][] = TestUtil.getReport("admin_login");
+		Object data[][] = DataSupplier.getReport("admin_login");
 		
 		return data;
 	}

@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 
 import com.base.TestBase;
 import com.pages.LoginPage;
+import com.utils.DataSupplier;
 import com.utils.TestUtil;
 
 public class EmployeeLoginPageTest extends TestBase {
@@ -29,7 +30,7 @@ public class EmployeeLoginPageTest extends TestBase {
 
 	@DataProvider
 	public Object[][] getData() {
-		Object data[][] = TestUtil.getReport("employee_login");
+		Object data[][] = DataSupplier.getReport("employee_login");
 		return data;
 	}
 

@@ -1,21 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-06T11:27:59 IST" name="Default suite" finished-at="2022-10-06T11:28:49 IST" duration-ms="50048">
+  <suite started-at="2023-02-08T14:55:54 IST" name="orangeHRM" finished-at="2023-02-08T14:56:26 IST" duration-ms="31934">
     <groups>
     </groups>
-    <test started-at="2022-10-06T11:27:59 IST" name="Default test" finished-at="2022-10-06T11:28:49 IST" duration-ms="50048">
-      <class name="com.testcases.IRCTC_Test">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.IRCTC_Test@130d63be]" started-at="2022-10-06T11:27:59 IST" name="setup" finished-at="2022-10-06T11:28:37 IST" duration-ms="38415" status="PASS">
+    <test started-at="2023-02-08T14:55:54 IST" name="adminLogin" finished-at="2023-02-08T14:56:26 IST" duration-ms="31934">
+      <class name="com.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testcases.LoginPageTest@6865c751]" started-at="2023-02-08T14:55:54 IST" name="setUp" finished-at="2023-02-08T14:56:08 IST" duration-ms="13863" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="call()[pri:0, instance:com.testcases.IRCTC_Test@130d63be]" started-at="2022-10-06T11:28:37 IST" name="call" finished-at="2022-10-06T11:28:49 IST" duration-ms="11566" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="forgotPwdLinkVerify()[pri:0, instance:com.testcases.LoginPageTest@6865c751]" started-at="2023-02-08T14:56:08 IST" name="forgotPwdLinkVerify" finished-at="2023-02-08T14:56:09 IST" duration-ms="689" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- call -->
-      </class> <!-- com.testcases.IRCTC_Test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- forgotPwdLinkVerify -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcases.LoginPageTest@6865c751]" started-at="2023-02-08T14:56:09 IST" name="tearDown" finished-at="2023-02-08T14:56:09 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testcases.LoginPageTest@6865c751]" started-at="2023-02-08T14:56:10 IST" name="setUp" finished-at="2023-02-08T14:56:22 IST" duration-ms="12116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.testcases.LoginPageTest@6865c751]" started-at="2023-02-08T14:56:22 IST" name="login" data-provider="getData" finished-at="2023-02-08T14:56:26 IST" duration-ms="3934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcases.LoginPageTest@6865c751]" started-at="2023-02-08T14:56:26 IST" name="tearDown" finished-at="2023-02-08T14:56:26 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcases.LoginPageTest -->
+    </test> <!-- adminLogin -->
+  </suite> <!-- orangeHRM -->
 </testng-results>

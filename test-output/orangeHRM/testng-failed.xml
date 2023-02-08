@@ -11,6 +11,7 @@
           <include name="tearDown"/>
           <include name="setUp"/>
           <include name="forgotPwdLinkVerify"/>
+          <include name="login" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.testcases.LoginPageTest -->
     </classes>
